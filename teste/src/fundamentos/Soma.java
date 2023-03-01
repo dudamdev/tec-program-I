@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package teste;
+package fundamentos;
 import java.util.Scanner;
 
 /**
@@ -14,9 +14,7 @@ public class Soma {
     public static void main(String[] arg) {
      // cria um Scanner para obter entrada a partir da janela de comando
         Scanner input = new Scanner(System.in); // inicializando o objeto input
-        int numOne;
-        int numTwo;
-        int sum;
+        int numOne, numTwo, sum;
         
         System.out.print("Digite o primeiro número: ");
         numOne = input.nextInt(); // método ("importado" do Scanner) que permite a leitura do input e armazenamento na variável
