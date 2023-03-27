@@ -9,20 +9,17 @@ import java.util.Scanner;
  *
  * @author dudaa
  */
-
-public class Ex04 {
+public class Ex07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int num, res = 1;
-
-        System.out.print("Digite um número: ");
-        num = input.nextInt();
-
-        for (int i = num; i >= 1; i--) {
-            res *= i;
+        
+        System.out.print("Digite um número inteiro: ");
+        int num = input.nextInt();
+        
+        if (num % 2 == 0) {
+            System.out.print("O número " + num + " é par");
+        } else {
+            System.out.print("O número " + num + " é impar");
         }
-
-        System.out.print(num + "! = " + res);
     }
 }
-
