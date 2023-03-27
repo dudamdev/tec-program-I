@@ -8,7 +8,7 @@ package exercicios;
  *
  * @author 1091392223010
  */
-public class ExOne {
+public class Ex01 {
     public static void main(String[] args) {
         int soma = 0;
         for(int i = 1; i <= 100; i++) {

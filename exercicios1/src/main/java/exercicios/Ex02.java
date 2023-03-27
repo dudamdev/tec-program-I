@@ -11,7 +11,7 @@ import java.util.*;
  * @author 1091392223010
  */
 
-public class ExTwo {
+public class Ex02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num, cont;
