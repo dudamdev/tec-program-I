@@ -1,0 +1,5 @@
+INSERT INTO Contato (id, name, email) VALUES (1, "Duda", "dudaarianne@hotmail.com")
+INSERT INTO Contato (id, name, email) VALUES (2, "Ragnar", "ragnar@hotmail.com")
+INSERT INTO Contato (id, name, email) VALUES (3, "Bjorn", "bjorn@hotmail.com")
+INSERT INTO Contato (id, name, email) VALUES (4, "Ivar", "ivar@hotmail.com")
+INSERT INTO Contato (id, name, email) VALUES (5, "Sigard", "sigard@hotmail.com")
