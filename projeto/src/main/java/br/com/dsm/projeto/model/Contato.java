@@ -10,12 +10,14 @@ import lombok.Data;
 @Entity
 @Table
 @Data
+
 public class Contato {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
 
-    String name;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  Long id;
+  
+  String name;
 
-    String email;
+  String email;
 }

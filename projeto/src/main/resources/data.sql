@@ -1,5 +1,5 @@
-INSERT INTO Contato (id, name, email) VALUES (1, "Duda", "dudaarianne@hotmail.com")
-INSERT INTO Contato (id, name, email) VALUES (2, "Ragnar", "ragnar@hotmail.com")
-INSERT INTO Contato (id, name, email) VALUES (3, "Bjorn", "bjorn@hotmail.com")
-INSERT INTO Contato (id, name, email) VALUES (4, "Ivar", "ivar@hotmail.com")
-INSERT INTO Contato (id, name, email) VALUES (5, "Sigard", "sigard@hotmail.com")
+INSERT INTO CONTATO (name, email) VALUES ('Alexandre', 'alexandre@fatec.com.br'); 
+INSERT INTO CONTATO (name, email) VALUES ('José', 'jose@fatec.com.br');
+INSERT INTO CONTATO (name, email) VALUES ('João', 'joao@fatec.com.br');
+INSERT INTO CONTATO (name, email) VALUES ('Maria', 'maria@fatec.com.br');
+INSERT INTO CONTATO (name, email) VALUES ('Joaquina', 'joaquina@fatec.com.br');
